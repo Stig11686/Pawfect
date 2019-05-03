@@ -2,76 +2,225 @@
 <html>
 <head>
 	<link rel="icon" type="image/png" href="favicon.ico">
-	<title>Hannahs Cattery</title>
+	<title>Pawfect Walks and Pet Boarding</title>
 	<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
 	<link href="https://fonts.googleapis.com/css?family=Fira+Mono:400,500|Nova+Mono" rel="stylesheet">
-	<link rel = "stylesheet" href="cattery.css">
-</head>
-
-
+	<link rel = "stylesheet" href="assets/scss/dw.css">
+	</head>
 <body>
 <!--Start Nav Bar-->
-<div class="navigation">
-	<input type="checkbox" id="nav-toggle" class="navigation__checkbox">
-	<label for="nav-toggle" class="navigation__button">
-		<span class="navigation__icon">&nbsp;</span>
-	</label>
-	<div class="navigation__background">
-		&nbsp;
-	</div>
-
-	<nav class="navigation__nav">
-		<ul class="navigation__list">		   
-			<li class="navigation__item"><a href="index.html" class="navigation__link">HOME</a></li>
-			<li class="navigation__item"><a href="#services" class="navigation__link">SERVICES</a></li>
-			<li class="navigation__item"><a href="#gallery" class="navigation__link">GALLERY</a></li>
-			<li class="navigation__item"><a href="#contact" class="navigation__link">CONTACT</a></li>
-			<li class="navigation__item"><a href="#" class="navigation__link"><i class="fas fa-phone"></i></a></li>
-			<li class="navigation__item"><a href="#" class="navigation__link"><i class="fab fa-facebook-f"></a></i></li>
-			<li class="navigation__item"><a href="#" class="navigation__link"><i class="fab fa-twitter"></a></i></li>
-			<li class="navigation__item"><a href="#" class="navigation__link"><i class="fab fa-instagram"></a></i></li>
-	   	</ul>
-	</nav>
-</div>
+<nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark py-0 fixed-top small-nav">
+   <button class="navbar-toggler" data-toggle="collapse" data-target="#navlinks" aria-label="Toggle Navigation"><span class="navbar-toggler-icon"></button>
+     <div id="navlinks" class="collapse navbar-collapse">
+       <ul id="socialMedia" class="navbar-nav ml-auto">
+        <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+        <li class="nav-item"><a href="#services" class="nav-link">SERVICES</a></li>
+        <li class="nav-item"><a href="#gallery" class="nav-link">GALLERY</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">CONTACT</a></li>
+        <li class="nav-link"><i class="fas fa-phone"></i> 01756 776 543</li>
+        <li class="nav-link"><a href=""><i class="fab fa-facebook-f"></a></i></li>
+        <li class="nav-link"><a href=""><i class="fab fa-twitter"></a></i></li>
+        <li class="nav-link"><a href=""><i class="fab fa-instagram"></a></i></li>
+       </ul>
+     </div>
+</nav>
+<span></span>
 
    <!-- End Nav Bar -->
 <!-- Start First Section -->
 <section id="home" class="header">
 	<div>
-		<h1>Hannahs Cattery</h1>
+		<h1>PAWFECT PET CARE!</h1>
 		<p>Skiptons Number 1 Pet Care Service</p>
-		<p>Fully Licensed and insured, I offer ...insert what you offer!</p>
-		<p>I have been an avid cat lover for over 20 years, demonstrate how/why you love cats....</p>
+		<p>Fully Licensed and insured, I offer a free home consultation with your
+		pet so your pet can be fully comfortable before our first outing.</p>
+		<p>I have been an avid dog lover for over 20 years, have a young pup named Brady and support various dog charities and events in the area.</p>
 	</div>
 </section>
 
 
-<section id="services">
-
-
+<section id="services" class="mb-5">
+<div class="container text-center">
+	<div class="row">
+		<div class="col text-center mb-5 pt-5">
+			<h1>Our Offer</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-1 text-center">
+			<i class="fas fa-paw"></i>
+		</div>
+		<div class="col-md-5">
+			<h4 class="text-center">Dog Walking</h4>
+			<p>I believe in researching and applying different walking routes for your dogs, to enhance their senses and relieve boredom.</p>
+			<p><span>1 dog for 1 hour is just £10. Every additional dog from the same household is £5 per hour per dog</span>.</p>
+		</div>
+		<div class="col-md-1">
+			<i class="fas fa-paw"></i>
+		</div>
+		<div class="col-md-5">
+			<h4>Home Visits</h4>
+			<p>Daily pet visits are a welcome service for pet owners who travel a lot, work long hours or are perhaps taking a well earned holiday or having a weekend away. My visit includes providing fresh food and water, cleaning of litter trays and garden clean up’s. I am happy to water house plants, open and close curtains/blinds and turn lights on and off should you wish me to. My visits are for a minimum of 15 minutes and can be provided once, twice or three times a day. I will also administer medication to your pet. A daily update can be provided to you to ensure peace of mind while you are away. <span>Home visits from £10</span>.</p>
+		</div>
+		<div class="col-md-1">
+			<i class="fas fa-paw"></i>
+		</div>
+		<div class="col-md-5">
+			<h4>Doggy Day Care</h4>
+			<p>If you are coming to Skipton for lunch or some retail therapy and would like to bring your dog along I would be happy to take him/her for a walk while you are having some “me time”. My location is in central Skipton and therefore I have some wonderful walks on my doorstep such as Skipton Woods for your dog to explore and enjoy while you are relaxing. Charges from <span>£11 per dog per day</span>. Drop off from <span>7.30am</span>, pick up between <span>4pm and 6pm</span>.</p>
+		</div>
+		<div class="col-md-1">
+			<i class="fas fa-paw"></i>
+		</div>
+		<div class="col-md-5">
+			<h4>Dog Boarding</h4>
+			<p>I am happy to have your pets overnight at my home. This service gets booked up very quickly as I am very limited in space! This includes a dog walk, and overnight stays are charged at <span>£14 per hour.</span></p>
+		</div>
+	</div>
+</div>
+</div>
 </section>
 
 <section id="gallery">
-	
+	<div class="container text-center pb-5">
+		<div class="row text-center align-items-center">
+			<div class="col mb-5 pt-5">
+				<h1>Gallery</h1>
+			</div>
+		</div>
+
+		<div class="row">	
+			<div class="col-lg-4">
+				<div class="thumbnail">
+					<div>
+						<span>This is Ben</span>
+						<p>Ben is a beautiful boy who likes nothing better than sniffing!!</p>
+					</div>
+					<img src="imgs/ben.jpg">
+				</div>
+			</div>
+
+			<div class="col-lg-4">
+				<div class="thumbnail">
+					<div>
+						<span>Bruno</span>
+						<p>Bruno is an 8 year old golden retriever who loves chasing a ball!</p>
+					</div>
+					<img src="imgs/bruno.jpg">
+				</div>
+			</div>
+
+			<div class="col-lg-4">
+				<div class="thumbnail">
+					<div>
+						<span>Freddie</span>
+						<p>This is Freddie. As you can see, he loves sticks!</p>
+					</div>
+					<img src="imgs/freddie2.jpg">
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+
+			<div class="col-lg-4">
+				<div class="thumbnail">
+					<div>
+						<span>Flo</span>
+						<p>This is Flo! One of my favourite girls!</p>
+					</div>
+					<img src="imgs/flo.jpg">
+				</div>
+			</div>
+
+			<div class="col-lg-4">
+				<div class="thumbnail">
+					<div>
+						<span>Jack</span>
+						<p>This is Jack - he loves to Prowl!</p>
+					</div>
+					<img src="imgs/jack.jpg">
+				</div>
+			</div>
+
+			<div class="col-lg-4">
+				<div class="thumbnail">
+					<div>
+						<span>Dougie</span>
+						<p>This is Dougie - he loves his squeaky ball!</p>
+					</div>
+					<img src="imgs/dougie2.jpg">
+				</div>
+
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="thumbnail">
+					<div>
+						<span>Ralph</span>
+						<p>This is Ralph! Ralph loves playing hide and seek!</p>
+					</div>
+					<img src="imgs/ralph.jpg">
+				</div>
+			</div>
+
+			<div class="col-lg-4">
+				<div class="thumbnail">
+					<div>
+						<span>Rex</span>
+						<p>This is Rex. Rex loves chewing AND sticks!</p>
+					</div>
+					<img src="imgs/rex2.jpg">
+				</div>
+			</div>
+
+			<div class="col-lg-4">
+				<div class="thumbnail">
+					<div>
+						<span>Toby</span>
+						<p>This is Toby! He is the boss!!</p>
+					</div>
+					<img src="imgs/toby.jpg">
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
-<section class= """ id="contact">
-	
+<section  class="mt-5 pt-5" id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col text-center">
 				<h1>Contact Me</h1>
 				<hr>
-				<p>I am based ???</p>
-		
-			<p class="">TEL:???</p>
-			<p class=""><a href="mailto: stevenmarks@bvswebdesign.co.uk">EMAIL:???</a></p>
+				<p>I am based in central Skipton</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col text-center mt-4 mb-5 pt-4">
+			<p class="contact">TEL:07710451027</p>
+			<p class="contact"><a href="mailto: stevenmarks@bvswebdesign.co.uk">EMAIL:stevenmarks@bvswebdesign.co.uk</a></p>
+			</div>
+		</div>
+	</div>
 	
 </section>
 
-<footer id="footer" class="">
+<footer id="footer" class="text-center">
 	Copy &copy 2018 BVSWebDesign
 </footer>
 
-
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
